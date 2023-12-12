@@ -135,3 +135,58 @@ section {
         color: white;
     }
 }
+
+@media screen and (min-width: 641px) and (max-width: 1023px) {
+
+    .container {
+        width: 90%;
+    }
+
+    #sobre-a-loja {
+        flex-direction: column;
+        align-items: center;
+
+        img {
+            width: 100%;
+            margin-bottom: 24px;
+        }
+    }
+
+    .produtos {
+        grid-template-columns: repeat(2, 49.5%);
+        column-gap: 1%;
+    }
+
+    .produto img{
+        max-width: 359.5px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    nav ul li{
+        display: block;
+    }
+
+    .container {
+        width: 80%;
+    }
+
+    #sobre-a-loja {
+        flex-direction: column;
+        align-items: center;
+
+        img {
+            width: 100%;
+            margin-bottom: 24px;
+        }
+    }
+
+    .produtos {
+        grid-template-columns: repeat(1, 100%);
+    }
+
+    .produto img{
+        max-width: 359.5px;
+    }
+}
