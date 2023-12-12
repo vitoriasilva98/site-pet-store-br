@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 924px;
+    margin: 0 auto;
+}
+
+.display-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    padding: 1rem 0;
+    background-color: #ffb727;
+}
+
+h1 {
+    font-family: DynaPuff, sans-serif;
+    color: #e4491c;
+}
+
+h2 {
+    font-family: DynaPuff, sans-serif;
+    font-size: 24px;
+    color: #e4491c;
+    margin-bottom: 16px;
+}
+
+nav ul li{
+    display: inline;
+    margin-left: 8px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: DynaPuff, sans-serif;
+    font-size: 16px;
+    color: #e4491c;
+}
+
+section {
+    padding: 2rem 0 3rem 0;
+}
+
+#sobre-a-loja {
+    /* background-color: rgb(253, 241, 226); */
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#sobre-a-loja img {
+    width: 450px;
+    border-radius: 8px;
+}
+
+.texto-sobre{
+    margin-left: 16px;
+} 
+
+.texto-sobre p {
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+#sessao-produtos{
+    background-color: rgb(253, 241, 226);
+}
+
+.produtos {
+    display: grid;
+    grid-template-columns: repeat(4, 24.25%);
+    column-gap: 1.1%;
+}
+
+.produto {
+    /* width: 221px; */
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(253, 241, 226);
+    font-family: 'Roboto Flex', sans-serif;
+    text-align: center;
+    padding: 1rem;
+}
+
+.produto img{
+    max-width: 210px;
+    border-radius: 8px;
+}
+
+.produto b {
+    margin-top: 16px;
+    font-size: 18px;
+}
+
+.produto p {
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+.produto button {
+    margin-top: 16px;
+    background-color: #e4491c;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.produto-destaque {
+    background-color: #e4491c;
+    border-radius: 8px;
+    padding: 0.80rem;
+
+    b {
+        font-family: DynaPuff, sans-serif;
+        color: white;
+    }
+
+    button {
+        background-color: #ffb727;
+    }
+
+    p {
+        color: white;
+    }
+}
